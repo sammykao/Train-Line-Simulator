@@ -1,0 +1,81 @@
+/**********************************************************
+* Project 1: Metro Simulator
+* Sammy Kao
+* 02/11/2023
+* CS 15
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make MetroSim
+     - run executable with
+            ./MetroSim stationsFile passFile [commands]
+
+
+Program Purpose:
+     The purpose of this program is to run a metro simulator
+     based on the user/file inputted stations as well as commands
+
+Acknowledgements: 
+     No help was reieved except for the TA for the design checkoff
+
+Files: 
+
+main.cpp:
+     STUDENT TO-DO: Main file should be short and handle simple driver
+     functions such as reading in files.
+
+MetroSim.cpp:
+     STUDENT TO-DO: Implementation of MetroSim class.  Main
+     functionality of running the Metro Simulation, should be able to
+     move trains and deal with passengers going on/off the train.
+
+MetroSim.h:
+     STUDENT TO-DO: Interface of MetroSim class.
+
+stations.txt:
+     an example file containing a list of stations.
+
+test_commands.txt:
+     sample list of commands that you could give to the simulator
+
+the_metroSim:
+     reference implementation for students to see how 
+
+Passenger.cpp:
+     implementation file of Passenger class
+
+Passenger.h
+     interface file of Passenger class
+
+PassengerQueue.cpp
+     implementation file of PassengerQueue class
+
+PassengerQueue.h
+     interface file of PassengerQueue class
+
+Note:  the program should handle all cases.
+
+Data Structures:
+The data structures used for the PassengerQueue class
+is a dynamically functional array, better known as the
+vector class. The vector class can change sizes dynamically
+and comes with a number of methods.
+
+Testing:
+The testing for both the Passenger and PassengerQueue classes 
+ranged from simple functionality, to more complex with multiple commands,
+to even error testing with runtime errors.
+For MetroSim class, the class was tested more using input files and
+diff testing. Some functions were partially tested using unit test
+and making some private functions public (Theyre now private again)
+
+
+Part that you found most difficult:
+
+Here, inditicate the part of the assignment that you found the most
+challenging. It could be a concept (ie. stacks) or something specific
+to the assignment. This will help us know what to review and what to
+focus on.
