@@ -72,10 +72,3 @@ For MetroSim class, the class was tested more using input files and
 diff testing. Some functions were partially tested using unit test
 and making some private functions public (Theyre now private again)
 
-
-Part that you found most difficult:
-
-Here, inditicate the part of the assignment that you found the most
-challenging. It could be a concept (ie. stacks) or something specific
-to the assignment. This will help us know what to review and what to
-focus on.
